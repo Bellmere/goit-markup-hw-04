@@ -185,6 +185,24 @@ body {
 
 .section-hero {
   background-color: var(--secondary-black-color);
+  text-align: center;
+  
+}
+
+.overlay {
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .section-hero h1 {
@@ -244,6 +262,7 @@ body {
 }
 
 .btn-hero {
+  display: inline-flex;
   cursor: pointer;
   border-radius: 4px;
   border: 0;
@@ -273,6 +292,36 @@ body {
 .features-list {
   display: flex;
   align-items: baseline;
+}
+
+.features-list .item::before{
+  content: "";
+  display: block;
+  height: 120px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65.32px 70px;
+
+  background-color: var(--secondary-white-color);
+  border-radius: 4px;
+}
+
+.icon-satellite::before {
+  background-image: url(../images/satellite.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.icon-computer::before {
+  background-image: url(../images/computer.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 .features-list .item:not(:last-child) {
