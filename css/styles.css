@@ -52,6 +52,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+
+  outline: 2px solid goldenrod;
 }
 
 /* header */
@@ -189,6 +191,10 @@ body {
   
 }
 
+.hero {
+  height: 600px;
+}
+
 .overlay {
   width: 1600px;
   height: 600px;
@@ -206,6 +212,7 @@ body {
 }
 
 .section-hero h1 {
+  padding-top: 200px;
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primary-white-color);
