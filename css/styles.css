@@ -405,7 +405,7 @@ body {
 .social-list {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  justify-content: center;
 }
 
  .social-link {
@@ -414,17 +414,20 @@ body {
   height: 44px;
   padding: 0;
   margin: 0;
+  margin-bottom: 30px;
+  text-decoration: none;
 
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: gold;
   align-items: center;
+  fill: #afb1b8;
 }
 
-.social-icon {
-  fill: #afb1b8;
+.social-link:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
 }
 
 .social-list .item:not(:last-child) {
@@ -479,9 +482,10 @@ body {
 .container.footer {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
-.adress-footer .footer-item-logo {
+.footer-item-logo {
   display: flex;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -515,6 +519,30 @@ body {
   line-height: 1.71;
 
   text-decoration: none;
+}
+
+/* join in footer */
+
+.footer-join-marg {
+  margin-left: 70px;
+}
+
+.join h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  
+  color: var(--primary-white-color)
+}
+
+.bg-join {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* portfolio */
