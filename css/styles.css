@@ -399,6 +399,11 @@ body {
 
 /* clients */
 
+.clients-list {
+  display: flex;
+  align-items: center;
+}
+
 .item-clients .icon {
   display: inline-flex;
   width: 170px;
@@ -406,11 +411,14 @@ body {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+
+ 
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
   justify-content: center;
 
+  fill: #afb1b8;
   background-color: var(--secondary-white-color);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -419,6 +427,13 @@ body {
 .item-clients:not(:last-child) {
   margin-right: 30px;
 }
+
+.clients-link .icon:hover,
+.clients-link .icon:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
 /* footer */
 
 .page-footer {
