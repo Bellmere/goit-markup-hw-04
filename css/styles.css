@@ -317,22 +317,6 @@ body {
   border-radius: 4px;
 }
 
-/* .icon-satellite::before {
-  background-image: url(../images/satellite.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-
-.icon-computer::before {
-  background-image: url(../images/computer.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/astronaut.svg);
-} */
-
 .features-list .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -413,6 +397,28 @@ body {
   line-height: 1.19;
 }
 
+/* clients */
+
+.item-clients .icon {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--secondary-white-color);
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.item-clients:not(:last-child) {
+  margin-right: 30px;
+}
 /* footer */
 
 .page-footer {
