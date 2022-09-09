@@ -301,7 +301,7 @@ body {
   align-items: baseline;
 }
 
-.icon {
+.icon-features {
   display: inline-flex;
   width: 270px;
   height: 120px;
@@ -359,6 +359,7 @@ body {
 .list-do .item:not(:last-child) {
   margin-right: 30px;
 }
+
 /* Our team */
 
 .team {
@@ -370,6 +371,8 @@ body {
   align-items: center;
   width: 270px;
   text-align: center;
+
+  border-radius: 0px 0px 4px 4px;
 }
 
 .item img {
@@ -395,6 +398,37 @@ body {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
+}
+
+/* social */
+
+.social-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+ .social-link {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: gold;
+  align-items: center;
+}
+
+.social-icon {
+  fill: #afb1b8;
+}
+
+.social-list .item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* clients */
