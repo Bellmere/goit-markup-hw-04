@@ -121,7 +121,7 @@ body {
 }
 
 .site-nav {
-  display: flex;
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -135,7 +135,6 @@ body {
 }
 
 .site-nav .link {
-  display: block;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -155,11 +154,11 @@ body {
 }
 
 /* contacts */
+
 .contact-list {
-  display: flex;
+  display: inline-flex;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  align-items: center;
 
 }
 
@@ -171,9 +170,11 @@ body {
   margin-right: 50px;
 }
 
-.contact-list .contact {
+.contact-item .contact {
   display: inline-flex;
   align-items: center;
+  vertical-align: text-bottom;
+
 
   color: var(--text-color);
   font-weight: 500;
@@ -594,10 +595,14 @@ body {
 }
 
 .item .card {
+  box-sizing: content-box;
   border: 1px solid var(--card-border-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-              0px 4px 4px rgba(0, 0, 0, 0.06),
+
+  padding: 20px 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+              0px 4px 4px rgba(0, 0, 0, 0.06), 
               1px 4px 6px rgba(0, 0, 0, 0.16);
+  
 }
 
 .portfolio-list .item:nth-child(3n) {
@@ -609,7 +614,7 @@ body {
 }
 
 .portfolio-link .portfolio-title {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 4px;
 
   color: var(--title-text-color);
@@ -621,7 +626,7 @@ body {
 
 .portfolio-link .portfolio-text {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 
   color: var(--text-color);
   font-size: 16px;
