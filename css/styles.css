@@ -52,8 +52,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 2px solid goldenrod;
 }
 
 .visually-hidden {
@@ -81,7 +79,6 @@ body {
 }
 
 .logo-link {
-
   color: var(--accent-color);
   font-family: Raleway, serif;
   font-weight: 700;
@@ -135,7 +132,6 @@ body {
 }
 
 .site-nav .link {
-
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -159,7 +155,6 @@ body {
   display: inline-flex;
   margin-left: auto;
   align-items: center;
-
 }
 
 .contact-icon {
@@ -174,7 +169,6 @@ body {
   display: inline-flex;
   align-items: center;
   vertical-align: text-bottom;
-
 
   color: var(--text-color);
   font-weight: 500;
@@ -225,9 +219,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/background-hero.jpg);
   background-repeat: no-repeat;
@@ -286,9 +280,8 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-              0px 1px 2px rgba(0, 0, 0, 0.08), 
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-btn {
@@ -397,16 +390,14 @@ body {
 .card-team {
   background-color: var(--primary-white-color);
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-              0px 1px 1px rgba(0, 0, 0, 0.14), 
-              0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .card-text {
   padding-bottom: 16px;
   padding-top: 30px;
-
 }
 
 .team-list {
@@ -448,7 +439,7 @@ body {
   justify-content: center;
 }
 
- .social-link {
+.social-link {
   display: inline-flex;
   width: 44px;
   height: 44px;
@@ -465,7 +456,7 @@ body {
   fill: #afb1b8;
 }
 
-.social-link:hover
+.social-link:hover, 
 .social-link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
@@ -490,7 +481,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 
- 
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
@@ -498,7 +488,7 @@ body {
 
   fill: #afb1b8;
   background-color: var(--secondary-white-color);
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
@@ -578,8 +568,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  
-  color: var(--primary-white-color)
+
+  color: var(--primary-white-color);
 }
 
 .bg-join {
@@ -604,7 +594,6 @@ body {
   border: 1px solid var(--card-border-color);
 
   padding: 20px 24px;
-  
 }
 
 .portfolio-list .item:nth-child(3n) {
@@ -637,9 +626,8 @@ body {
 
 .item.portfolio-card:hover,
 .item.portfolio-card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-              0px 4px 4px rgba(0, 0, 0, 0.06), 
-              1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-link {
