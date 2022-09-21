@@ -127,6 +127,10 @@ body {
   margin-left: 93px;
 }
 
+.site-nav .item-nav {
+  display: flex;
+}
+
 .site-nav .item-nav:not(:last-child) {
   margin-right: 50px;
 }
@@ -159,6 +163,7 @@ body {
 
 .contact-icon {
   margin-right: 10px;
+  background-position: center;
 }
 
 .contact-list .contact-item:not(:last-child) {
