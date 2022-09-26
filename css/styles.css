@@ -133,7 +133,7 @@ body {
 .site-nav {
   display: inline-flex;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 31px;
 }
 
 .nav {
@@ -611,8 +611,8 @@ body {
   line-height: 1.88;
 }
 
-.item.portfolio-card:hover,
-.item.portfolio-card:focus {
+.portfolio-list__item:hover,
+.portfolio-list__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
