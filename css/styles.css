@@ -313,17 +313,16 @@ body {
 
 /* features */
 
-.features-list {
+.features__list {
   display: flex;
-  align-items: baseline;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.icon-features {
+.features__icon {
   display: inline-flex;
-  width: 270px;
-  height: 120px;
-  padding: 0;
-  margin-top: 0;
+  width: 100%;
+  padding: 25px 0;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -334,29 +333,22 @@ body {
   border-radius: 4px;
 }
 
-.features-list .item:not(:last-child) {
-  margin-right: 30px;
+.features__item {
+  width: calc((100% - 3 * 30px) / 4);
 }
 
-.features-list .item {
-  width: 270px;
-}
-
-.title {
+.features__title {
   margin-top: 0;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
-}
-
-.features-list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.features-list .text {
+.features__text {
   margin: 0;
   font-size: 14px;
   line-height: 1.71;
@@ -368,13 +360,21 @@ body {
   padding-top: 0;
 }
 
-.list-do {
+.do__list {
   display: flex;
-  align-items: center;
+  gap: 30px;
 }
 
-.list-do .item:not(:last-child) {
-  margin-right: 30px;
+.do__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.do__item {
+  width: calc((100% - 2 * 30px) / 3);
+  padding: 0;
 }
 
 /* Our team */
@@ -398,9 +398,12 @@ body {
 
 .team-list {
   display: flex;
-  align-items: center;
-  width: 270px;
   text-align: center;
+}
+
+.team__item {
+  width: calc((100% - 3 * 30px) / 4);
+  height: 100%;
 }
 
 .item img {
@@ -433,6 +436,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .social-link {
@@ -441,7 +445,6 @@ body {
   height: 44px;
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
   text-decoration: none;
 
   background-repeat: no-repeat;
@@ -464,6 +467,10 @@ body {
 
 .social-link--bg-join {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.page-footer__social-list {
+  padding: 0;
 }
 
 /* clients */
